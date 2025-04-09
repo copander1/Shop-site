@@ -1,5 +1,5 @@
 #signup {
-    margin-bottom: 40px; /* Додаємо відступ між блоками */
+    margin-bottom: 40px; 
 }
 * {
     margin: 0;
@@ -21,11 +21,11 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: -1; /* Задає відео на задній фон */
+    z-index: -1; 
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.8); /* Напівпрозорий фон для кращої видимості тексту */
+    background: rgba(255, 255, 255, 0.8); 
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     padding: 40px 30px;
