@@ -22,8 +22,8 @@ include("connect.php");
                 }
                }
             ?>
-            
         </p>
+        <a href = "logout.php">Вийти</a>
     </div>
 </body>
 </html>
