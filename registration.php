@@ -8,11 +8,6 @@
     <title>Реєстрація та Авторизація</title>
 </head>
 <body>
-    <!-- Відео на задньому фоні -->
-    <video autoplay loop muted playsinline class="background-clip">
-        <source src="images/vid 1.mp4" type="video/mp4">
-    </video>
-
     <!-- Форма реєстрації -->
     <div class="container" id="signup-container">
         <h1 class="form-title">Реєстрація</h1>
