@@ -1,92 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-  body {
-      height: 100vh;
-      display: flex;
-      justify-content: center; 
-      align-items: center;
-      background: linear-gradient(135deg, #7B2CBF, #FF5EBA);
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0; 
-  }
-
-  .header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background-color: linear-gradient(135deg, #7B2CBF, #FF5EBA);
-      z-index: 1000;
-      color: #FFFFFF;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      padding: 20px 20px 10px 20px; 
-      height: 60px;
-  }
-
-  .footer {
-      position: fixed; 
-      bottom: 0;
-      width: 100%; 
-      background-color: linear-gradient(135deg, #7B2CBF, #FF5EBA);
-      z-index: 1000; 
-      text-align: center;
-      justify-content: center;
-      padding: 10px 0;
-      color: #FFFFFF; 
-  }
-
-  .hor {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      gap: 50px; 
-      align-items: center;
-      padding-top: 30px;
-  }
-
-  .hor i {
-      color: white; 
-      transition: background-color 0.3s ease, transform 0.3s ease;
-      padding: 12px;
-      border-radius: 8px;
-  }
-
-  .hor i:hover {
-      background-color: rgba(255, 255, 255, 0.15); 
-      transform: scale(1.1); 
-      cursor: pointer;
-  }
-
-  .logo-link {
-      color: white;
-      text-decoration: none;
-      padding: 10px 20px;
-      border-radius: 8px;
-      transition: background-color 0.3s ease;
-      margin-top: 30px;
-
-  }
-
-  .logo-link:hover {
-      background-color: rgba(255, 255, 255, 0.15);
-  }
 #signup {
     margin-bottom: 40px;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
