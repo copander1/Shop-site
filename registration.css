@@ -1,6 +1,7 @@
 #signup {
-    margin-bottom: 40px; /* Додаємо відступ між блоками */
+    margin-bottom: 40px;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -10,40 +11,43 @@
 
 body {
     height: 100vh;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    background: linear-gradient(135deg, #7B2CBF, #FF5EBA);
+    font-family: 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+    padding: 20px;
 }
 
-.background-clip {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1; /* Задає відео на задній фон */
-}
-
-.container {
-    background: rgba(255, 255, 255, 0.8); /* Напівпрозорий фон для кращої видимості тексту */
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    padding: 40px 30px;
-    max-width: 400px;
-    width: 100%;
-    z-index: 1;
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 h1.form-title {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 24px;
+    font-size: 1.8rem;
     color: #333;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    padding: 30px 25px;
+    width: 100%;
+    max-width: 400px; 
+    min-width: 280px;
+    z-index: 1;
 }
 
 .input-group {
     position: relative;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .input-group i {
@@ -63,7 +67,7 @@ h1.form-title {
 }
 
 .input-group input:focus {
-    border-color: #667eea;
+    border-color: #7B2CBF;
     outline: none;
 }
 
@@ -78,8 +82,8 @@ h1.form-title {
 }
 
 .btn {
-    background: #667eea;
-    color: #fff;
+    background: #FF5EBA;
+    color: white;
     padding: 12px;
     width: 100%;
     border: none;
@@ -91,7 +95,7 @@ h1.form-title {
 }
 
 .btn:hover {
-    background: #5565d2;
+    background: #FF4081;
 }
 
 .recover {
@@ -102,7 +106,7 @@ h1.form-title {
 
 .recover a {
     font-size: 12px;
-    color: #667eea;
+    color: #FF5EBA;
     text-decoration: none;
 }
 
@@ -112,19 +116,19 @@ h1.form-title {
 
 .or {
     text-align: center;
-    margin: 20px 0;
+    margin: 15px 0;
     color: #aaa;
     font-size: 14px;
 }
 
 .icons {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .icons i {
     font-size: 22px;
-    color: #667eea;
+    color: #FF5EBA;
     margin: 0 10px;
     cursor: pointer;
     transition: transform 0.2s;
@@ -143,7 +147,7 @@ h1.form-title {
 .links button {
     background: none;
     border: none;
-    color: #667eea;
+    color: #FF5EBA;
     font-weight: bold;
     cursor: pointer;
     text-decoration: underline;
@@ -151,12 +155,13 @@ h1.form-title {
 }
 
 .links button:hover {
-    color: #5565d2;
+    color: #FF4081;
 }
 
 @media (max-width: 480px) {
     .container {
-        padding: 30px 20px;
+        padding: 20px 15px;
+        max-width: 90%;
     }
 
     .input-group input {
@@ -169,6 +174,6 @@ h1.form-title {
     }
 
     h1.form-title {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
